@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    concat: {
+    concatjs: {
       dist: {
         src: ['js/**/*.js'],
         dest: 'script.js',
@@ -20,5 +20,5 @@ module.exports = function(grunt) {
     },
   });
 
-  grunt.registerTask('default', ['sass', 'concat']);
+  grunt.registerTask('default', ['sass', 'concatjs']);
 };
