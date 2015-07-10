@@ -15,7 +15,6 @@
   "author": "kbizien",
   "license": "MIT",
   "dependencies": {
-    // Grunt
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-sass": "^1.0.0",
