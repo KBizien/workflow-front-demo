@@ -11,8 +11,14 @@ module.exports = function(grunt) {
           'style.css': 'sass/style.scss'
         }
       }
-    }
+    },
+    concat: {
+      dist: {
+        src: ['js/**/*.js'],
+        dest: 'script.js',
+      },
+    },
   });
 
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'concat']);
 };
